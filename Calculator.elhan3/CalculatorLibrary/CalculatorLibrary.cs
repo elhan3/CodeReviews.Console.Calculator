@@ -42,7 +42,7 @@ namespace CalculatorLibrary
                 case "d":
                     if(num2 != 0)
                     {
-                        result = num2 / num1;
+                        result = num1 / num2;
                     }
                     writer.WriteValue("Divide");
                     break;
